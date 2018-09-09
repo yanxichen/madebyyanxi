@@ -119,14 +119,14 @@ $('.contact-btn').click(function () {
 
 document.addEventListener('DOMContentLoaded',function(event){
 	
-	var text = "Wanna hear me sing?";
+	var text = "Developer. Adventurer. Tech Enthusiast. ";
 	
 	function typewriter(text, i){
 		if (i <= text.length) {
 			document.querySelector("h1").innerHTML = text.substring(0, i) + '<span id="curser"></span>';
 			setTimeout(function(){
 				typewriter(text, i+1);
-			}, 50)
+			}, 70)
 		}
 	}
 	
