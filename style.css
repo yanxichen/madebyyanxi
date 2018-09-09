@@ -1,21 +1,22 @@
 body {
-  margin: 0;
-  position: relative;
-  background-color: black;
-  height: 100%;
-  width: 100%;
-  font-family: 'Open Sans',Arial,sans-serif;
+    margin: 0;
+    position: relative;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 html {
-	height: 100%;
-	width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 .my-btn {
-	position: relative;
-	z-index: 20;
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 100%);
+    position: relative;
+    z-index: 20;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
     border-width: 0px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -40,105 +41,102 @@ html {
 
 #my-navbar {
     border-width: 0px;
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
     /*opacity: 0;*/
 }
 
- h1 {
+h1 {
 
-   font-size: 3em;
-     font-weight: bold;
-   color: white;
-   /*white-space: nowrap;*/
- }
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    /*white-space: nowrap;*/
+}
 
 /* #title{ */
-  /* position: relative; */
-  /* top: 50%; */
+/* position: relative; */
+/* top: 50%; */
 
-  /* transform: translateY(-50%); */
+/* transform: translateY(-50%); */
 
 /* } */
 
-
 #myCanvas {
-	position: relative;
-	top: 0;
-	left: 0;
-	z-index: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
     opacity: 0.5;
 }
 
 #overlay {
-	position: absolute;
-	width: 100%;
-	top: 50%;
+    position: absolute;
+    width: 100%;
+    top: 50%;
 }
 
 .masthead {
-  display: table;
-  width: 100%;
-  height: auto;
-  padding: 200px 0;
-  text-align: left;
-  color: white;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("assets/background-1.jpg")
-  no-repeat bottom center scroll;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 200px 0;
+    text-align: left;
+    color: white;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("assets/background-1.jpg") no-repeat bottom center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-
-
 .masthead .intro-body {
-  display: table-cell;
-  vertical-align: bottom;
+    display: table-cell;
+    vertical-align: bottom;
 }
 
 .masthead .intro-body .brand-heading {
-  font-size: 50px;
+    font-size: 50px;
 }
 
 .masthead .intro-body .intro-text {
-  font-size: 24px;
+    font-size: 24px;
 }
 
 /* @media { */
-  .masthead {
+.masthead {
     height: 100%;
     padding: 0;
-  }
-  
- /*#showHide {*/
-	 /*display:none;*/
-	 /*}*/
+}
+
+/*#showHide {*/
+/*display:none;*/
+/*}*/
 
 /* Desktop*/
 @media (min-width: 992px) {
-  #showHide  {
-      display: block;
-  }
-  /* #leftside > button { display: none; } */
+    #showHide {
+        display: block;
+    }
+
+    /* #leftside > button { display: none; } */
 }
 
-@media(max-width: 480px) {
+@media (max-width: 480px) {
     h2 {
         font-size: 20pt;
     }
 }
 
 #curser {
-  border-right: .05em solid;
-  animation: caret 0.60s steps(1) infinite;
+    border-right: .05em solid;
+    animation: caret 0.60s steps(1) infinite;
 }
 
 @keyframes caret {
-  50% {
-    border-color: transparent;
-  }
+    50% {
+        border-color: transparent;
+    }
 }
 
 .caption > * {
@@ -174,7 +172,7 @@ html {
     position: relative;
     margin: 0 auto;
     text-align: center;
-    top:50%;
+    top: 50%;
     background: dimgrey;
     padding: 6px 12px;
     color: white;
@@ -197,18 +195,17 @@ html {
     opacity: 1;
 }
 
-
 .content-section {
-  padding-top: 150px;
-  padding-bottom: 150px;
-  padding-left: 15%;
-  padding-right: 15%;
-  /* width: 80%; */
-  /* padding-left: 20%; */
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 15%;
+    padding-right: 15%;
+    /* width: 80%; */
+    /* padding-left: 20%; */
 }
 
 #cell {
-	margin: auto;
+    margin: auto;
     /*float: left;*/
     /*margin: 50px;*/
     position: relative;
@@ -216,59 +213,57 @@ html {
     display: block;
 }
 
-
 .text-center {
-    text-align: center!important;
+    text-align: center !important;
 }
 
 #player {
-	transition: all 0.6s ease-in-out;
-	filter: grayscale(100%);
+    transition: all 0.6s ease-in-out;
+    filter: grayscale(100%);
 }
 
 #player1 {
-transition: all 0.6s ease-in-out;
-border-radius: 50%; 
-overflow: hidden;
-filter: grayscale(100%);
+    transition: all 0.6s ease-in-out;
+    border-radius: 50%;
+    overflow: hidden;
+    filter: grayscale(100%);
 }
 
 #player1:hover {
-filter: grayscale(0%);
-overflow: visible;
-border-radius: 0px;
+    filter: grayscale(0%);
+    overflow: visible;
+    border-radius: 0px;
 }
 
 #player:hover {
-	filter: grayscale(0%);
+    filter: grayscale(0%);
 }
 
 #toggleExample.in,
 #toggleExample.collapsing {
-    display: block!important;
+    display: block !important;
 }
 
-
 .quote {
-	font-size: 90px; 
-	font-family: 'Passion One', bold;
-	line-height: 0;
+    font-size: 90px;
+    font-family: 'Passion One', bold;
+    line-height: 0;
 }
 
 .left-quote {
-	text-align: left;
+    text-align: left;
 
 }
 
 .right-quote {
-	text-align: right;
-	padding-top: 30px;
+    text-align: right;
+    padding-top: 30px;
 
 }
 
 .bio {
-	letter-spacing: 3px;
-	background: rgba(0, 0, 0, 0.3);
+    letter-spacing: 3px;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 p {
@@ -276,23 +271,23 @@ p {
 }
 
 .download-section {
-  color: white;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.2) 100%), url("assets/background-5.jpg");
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    color: white;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 100%), url("assets/background-5.jpg");
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .footer {
-	color: grey;
-	width: 100%;
-	background-color: #1b1b1b;
+    color: grey;
+    width: 100%;
+    background-color: #1b1b1b;
 }
 
 #contact {
-	color: white;
+    color: white;
 }
 
 #contact-containter {
@@ -303,46 +298,46 @@ p {
     padding: 10% 10% 10%;
 }
 
-
 .btn {
-  font-weight: 400;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  text-transform: uppercase;
-  border-radius: 0;
+    font-weight: 400;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    border-radius: 0;
 }
 
 .btn-default {
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: transparent;
 }
 
 .btn-default:focus, .btn-default:hover {
-  color: black;
-  border: 1px solid #ffffff;
-  outline: none;
-  background-color: #ffffff;
+    color: black;
+    border: 1px solid #ffffff;
+    outline: none;
+    background-color: #ffffff;
 }
 
 ul.banner-social-buttons {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 @media (max-width: 1199px) {
-  ul.banner-social-buttons {
-    margin-top: 15px;
-  }
+    ul.banner-social-buttons {
+        margin-top: 15px;
+    }
 }
 
 @media (max-width: 767px) {
-  ul.banner-social-buttons li {
-    display: block;
-    margin-bottom: 20px;
-    padding: 0;
-  }
-  ul.banner-social-buttons li:last-child {
-    margin-bottom: 0;
-  }
+    ul.banner-social-buttons li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons li:last-child {
+        margin-bottom: 0;
+    }
 }
